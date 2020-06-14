@@ -72,7 +72,7 @@ body {
  * ## links - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 a {
-  color: #2f98fa;
+  color: #184c82;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -80,7 +80,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #0087cc;
+  color: #184c82;
 }
 
 a:hover,
