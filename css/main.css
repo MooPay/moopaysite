@@ -367,7 +367,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #2f98fa;
+  background: #184c82;
   position: absolute;
   left: -17px;
   top: 11px;
@@ -376,7 +376,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #2f98fa;
+  color: #184c82;
 }
 
 dd {
@@ -501,7 +501,7 @@ form,
 }
 
 .pace .pace-progress {
-  background: #2f98fa;
+  background: #184c82;
   position: fixed;
   z-index: 900;
   top: 0;
@@ -545,7 +545,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-  background-color: #2f98fa;
+  background-color: #184c82;
   width: 4px;
   height: 35px;
   border-radius: 2px;
@@ -776,7 +776,7 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #2f98fa;
+  -webkit-text-fill-color: #184c82;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -812,8 +812,8 @@ input[type="button"] {
   /*border: .2rem solid #c5c5c5;*/
 
   color: #FFFFFF;
-  background: #2f98fa;
-  border-color: #2f98fa;
+  background: #184c82;
+  border-color: #184c82;
 }
 
 .btn:hover,
@@ -839,8 +839,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #2f98fa;
-  border-color: #2f98fa;
+  background: #184c82;
+  border-color: #184c82;
   color: #FFFFFF;
 }
 
@@ -1066,7 +1066,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-  color: #2f98fa;
+  color: #184c82;
 }
 
 .stats-tabs li a em {
@@ -1360,8 +1360,8 @@ input::-moz-focus-inner {
 
 #mc-form input[type=submit] {
   color: #FFFFFF;
-  background: #2f98fa;
-  border-color: #2f98fa;
+  background: #184c82;
+  border-color: #184c82;
   padding: 0 25px;
   margin: 0;
   position: absolute;
@@ -1422,7 +1422,7 @@ input::-moz-focus-inner {
   display: inline-block;
   font-family: "metropolis-regular", sans-serif;
   letter-spacing: 0;
-  background-color: #2f98fa;
+  background-color: #184c82;
   color: #FFFFFF;
   padding: 9px 12px;
   bottom: 1.3em;
@@ -1486,7 +1486,7 @@ input::-moz-focus-inner {
 
 .home-social span {
   font-size: 1.2rem;
-  color: #2f98fa;
+  color: #184c82;
   right: 6rem;
   opacity: 0;
   visibility: hidden;

@@ -31,7 +31,7 @@
  * # imports - (_imports.scss)
  *
  * ------------------------------------------------------------------- */
-@import url("/fontawesome.css");
+@import url("./fontawesome.css");
 
 /* ===================================================================
  * # normalize - (_normalize.scss)
