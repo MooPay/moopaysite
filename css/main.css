@@ -142,6 +142,7 @@ h1, .h1 {
 h2, .h2 {
   font-size: 3rem;
   line-height: 1.3;
+  margin-top: 4rem;
 }
 
 h3, .h3 {
@@ -1278,7 +1279,7 @@ input::-moz-focus-inner {
   padding-left: 55px;
   position: relative;
 }
-
+/*
 .home-content h3::before {
   content: "";
   display: block;
@@ -1289,7 +1290,7 @@ input::-moz-focus-inner {
   left: 0;
   top: 50%;
 }
-
+*/
 .home-content h1 {
   font-size: 4.3rem;
   line-height: 1.219;
@@ -2013,5 +2014,5 @@ html.no-csstransitions .home-content__main {
 }
 
 .btn-panel{
-  margin-top: 50px;
+  margin-top: 10px;
 }
