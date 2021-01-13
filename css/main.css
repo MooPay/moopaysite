@@ -96,15 +96,15 @@ a:active {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "domine-regular", serif;
-  color: #000000;
+  color: #ffffff;
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-  margin-top: 6rem;
-  margin-bottom: 1.8rem;
+  margin-top: .5rem;
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width:600px) {
