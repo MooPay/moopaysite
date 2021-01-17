@@ -2016,3 +2016,7 @@ html.no-csstransitions .home-content__main {
 .btn-panel{
   margin-top: 10px;
 }
+
+.download-btn img {
+  height: 50px;
+}
