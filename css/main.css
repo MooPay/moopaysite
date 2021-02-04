@@ -2029,3 +2029,11 @@ html.no-csstransitions .home-content__main {
   height: 75px;
   display:block;
 }
+
+.has-badge-alpha {
+  position:relative;
+}
+
+.has-badge-alpha .badge-alpha {
+  font-size:12px;
+}
