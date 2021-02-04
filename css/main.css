@@ -2035,5 +2035,16 @@ html.no-csstransitions .home-content__main {
 }
 
 .has-badge-alpha .badge-alpha {
-  font-size:12px;
+    background: white;
+    position: absolute;
+    font-size: 12px;
+    padding: 0 5px;
+    border-radius: 5px;
+    transform: rotate(
+-45deg
+);
+    left: -8px;
+    color: #000;
+    pointer-events: none;
+    top: 2px;
 }
