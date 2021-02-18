@@ -72,7 +72,7 @@ body {
  * ## links - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 a {
-  color: #184c82;
+  color: #ff8200;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -80,7 +80,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #184c82;
+  color: #ff8200;
 }
 
 a:hover,
@@ -368,7 +368,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #184c82;
+  background: #ff8200;
   position: absolute;
   left: -17px;
   top: 11px;
@@ -377,7 +377,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #184c82;
+  color: #ff8200;
 }
 
 dd {
@@ -502,7 +502,7 @@ form,
 }
 
 .pace .pace-progress {
-  background: #184c82;
+  background: #ff8200;
   position: fixed;
   z-index: 900;
   top: 0;
@@ -546,7 +546,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-  background-color: #184c82;
+  background-color: #ff8200;
   width: 4px;
   height: 35px;
   border-radius: 2px;
@@ -777,7 +777,7 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #184c82;
+  -webkit-text-fill-color: #ff8200;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -813,8 +813,8 @@ input[type="button"] {
   /*border: .2rem solid #c5c5c5;*/
 
   color: #FFFFFF;
-  background: #184c82;
-  border-color: #184c82;
+  background: #ff8200;
+  border-color: #ff8200;
 }
 
 .btn:hover,
@@ -840,8 +840,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #184c82;
-  border-color: #184c82;
+  background: #ff8200;
+  border-color: #ff8200;
   color: #FFFFFF;
 }
 
@@ -1067,7 +1067,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-  color: #184c82;
+  color: #ff8200;
 }
 
 .stats-tabs li a em {
@@ -1125,8 +1125,8 @@ input::-moz-focus-inner {
 }
 
 .s-home--particles {
-  background: #141414;
-  background: radial-gradient(circle, #141414 0%, black 100%);
+  background: #110500;
+  background: radial-gradient(circle, #110500 0%, black 100%);
 }
 
 .s-home--particles::before {
@@ -1152,7 +1152,7 @@ input::-moz-focus-inner {
 }
 
 .s-home .gradient-overlay {
-  display: block;
+  /*display: block;
   content: "";
   position: absolute;
   top: 0;
@@ -1160,7 +1160,7 @@ input::-moz-focus-inner {
   width: 100%;
   height: 100%;
   opacity: .6;
-  background: linear-gradient(to right, black 0%, black 20%, transparent 100%);
+  background: linear-gradient(to right, black 0%, black 20%, transparent 100%);*/
 }
 
 .info-is-visible .s-home {
@@ -1361,8 +1361,8 @@ input::-moz-focus-inner {
 
 #mc-form input[type=submit] {
   color: #FFFFFF;
-  background: #184c82;
-  border-color: #184c82;
+  background: #ff8200;
+  border-color: #ff8200;
   padding: 0 25px;
   margin: 0;
   position: absolute;
@@ -1423,7 +1423,7 @@ input::-moz-focus-inner {
   display: inline-block;
   font-family: "metropolis-regular", sans-serif;
   letter-spacing: 0;
-  background-color: #184c82;
+  background-color: #ff8200;
   color: #FFFFFF;
   padding: 9px 12px;
   bottom: 1.3em;
@@ -1487,7 +1487,7 @@ input::-moz-focus-inner {
 
 .home-social span {
   font-size: 1.2rem;
-  color: #184c82;
+  color: #ff8200;
   right: 6rem;
   opacity: 0;
   visibility: hidden;
