@@ -66,7 +66,7 @@
     * ------------------------------------------------------ */
     var ssSlickSlider = function() {
         
-        $('.home-slider').slick({
+        $('.screenshots-slider').slick({
             arrows: false,
             dots: false,
             autoplay: true,

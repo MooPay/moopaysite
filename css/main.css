@@ -764,6 +764,30 @@ input::-moz-focus-inner {
 }
 
 
+
+/*Slick Slider*/
+
+.slick-arrow{
+  position: absolute;
+  bottom: 10px;
+  background: transparent;
+  cursor: pointer;
+}
+.prev-arrow{
+  left: 46%;
+  border-left: 0 solid transparent;
+  border-right: 15px solid #ffffff;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+.next-arrow{
+  right: 46%;
+  border-right: 0 solid transparent;
+  border-left: 15px solid #ffffff;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+
 /* -------------------------------------------------------------------
  * ## home slides  - (_site-layout.scss) 
  * ------------------------------------------------------------------- */
@@ -978,6 +1002,7 @@ input::-moz-focus-inner {
 
 .home-content__counter {
   /*padding-right: 6rem;*/
+  position: relative;
 }
 
 .home-content__counter .top {
@@ -1043,6 +1068,20 @@ input::-moz-focus-inner {
 @media (max-width: 800px){
   .home-social{
     display: none !important;
+  }
+  .prev-arrow{
+    left: 40%;
+    border-left: 0 solid transparent;
+    border-right: 15px solid #ffffff;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+  }
+  .next-arrow{
+    right: 40%;
+    border-right: 0 solid transparent;
+    border-left: 15px solid #ffffff;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
   }
 }
 .home-social a {
@@ -1149,19 +1188,26 @@ input::-moz-focus-inner {
   display: none;
 }
 
-/* animate .home-content__main
+/* animate .home-content__main & Moo Swap
  * ------------------------------------------------------------------- */
-html.ss-preload .home-content__main {
+html.ss-preload .home-content__main,
+html.ss-preload .mooSwap__content__main{
   opacity: 0;
 }
 
-html.ss-loaded .home-content__main {
+html.ss-loaded .home-content__main{
   animation-duration: 2s;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
+html.ss-loaded .mooSwap__content__main{
+  animation-duration: 3s;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
 
-html.no-csstransitions .home-content__main {
+html.no-csstransitions .home-content__main,
+html.no-csstransitions .mooSwap__content__main{
   opacity: 1;
 }
 
@@ -1697,15 +1743,22 @@ html.no-csstransitions .home-content__main {
 .footer .home-social li img{
   vertical-align: middle;
 }
-.footer .home-copyright{
-
-}
 
 
 .screenshots-slider{
-  max-width: 300px;
-  text-align: right;
   margin: auto;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.screenshots-slider img{
+  transform: scale(0.8);
+  max-width: 320px;
+  transition: .3s;
+}
+.screenshots-slider img.slick-current{
+  transform: scale(1);
 }
 
 
@@ -1747,7 +1800,8 @@ html.no-csstransitions .home-content__main {
 .mooSwap__calc{
   max-width: 40%;
   padding: 30px;
-  border: 1px solid rgba(255, 255, 255, 0.6);
+  /*border: 1px solid rgba(255, 255, 255, 0.6);*/
+  border: 1px solid #333333;
   border-radius: 20px;
 }
 .mooSwap__calc img{
@@ -1809,58 +1863,57 @@ html.no-csstransitions .home-content__main {
   transition: .3s;*/
 }
 
-.mooToken__card.card-1{
+body.home-1 .mooToken__card.card-1{
   /*background: linear-gradient(150deg, #feac98 0%, #f8829e 100%);*/
   background: linear-gradient(150deg, #64b5fd 0%, #586dff 100%);
   /*background: linear-gradient(150deg, #9ed1ff 0%, #909efd 100%);*/
 }
-.mooToken__card.card-2{
+body.home-1 .mooToken__card.card-2{
   /*background: linear-gradient(150deg, #3debb7 0%, #44d7e0 100%);*/
   background: linear-gradient(150deg, #fc5154 0%, #f9726c 100%);
 }
-.mooToken__card.card-3{
+body.home-1 .mooToken__card.card-3{
   /*background: linear-gradient(150deg, #9ed1ff 0%, #909efd 100%);*/
   background: linear-gradient(150deg, #1fc3ba 0%, #10dbb6 100%);
 }
-.mooToken__card.card-4{
+body.home-1 .mooToken__card.card-4{
   /*background: linear-gradient(150deg, #feac98 0%, #f8829e 100%);*/
   background: linear-gradient(150deg, #ec8a51 0%, #ffcc69 100%);
 }
-.mooToken__card.card-5{
+body.home-1 .mooToken__card.card-5{
   background: linear-gradient(150deg, #e49bec 0%, #601996 100%);
 }
-.mooToken__card.card-6{
+body.home-1 .mooToken__card.card-6{
   /*background: linear-gradient(150deg, #0486e4 0%, #10a1e9 100%);*/
   background: linear-gradient(150deg, #f6607c 0%, #f42d62 100%);
 }
 
 .mooToken__card--title{
-  color: #ffffff;
+  color: #121212;
   font-weight: bold;
   font-size: 32px;
   margin-bottom: 10px;
   min-height: 80px;
 }
 .mooToken__card--desc{
-  color: #ffffff;
+  color: #121212;
   margin-bottom: 0;
 }
 
 
 
-.home-2 .mooToken__card{
+.mooToken__card{
   background: no-repeat url('https://moopay.live/img/OO.png');
-  background-color: #ffffff !important;
   background-size: 100%;
   background-position: 0px 200%;
   transition: .3s;
 }
-.home-2 .mooToken__card:hover{
+.mooToken__card:hover{
   background-position: 0px 130% !important;
 }
-.home-2 .mooToken__card--title,
-.home-2 .mooToken__card--desc{
-  color: #121212;
+body.home-1 .mooToken__card--title,
+body.home-1 .mooToken__card--desc{
+  color: #ffffff;
 }
 
 
@@ -1928,6 +1981,9 @@ html.no-csstransitions .home-content__main {
   .mooToken__card--title{
     min-height: auto;
     margin: 0 0 20px;
+  }
+  .home-2 .mooToken__card{
+    background-position: 0px 270px;
   }
 }
 
