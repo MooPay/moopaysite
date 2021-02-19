@@ -66,14 +66,7 @@
     * ------------------------------------------------------ */
     var ssSlickSlider = function() {
         
-        $('.screenshots-slider').slick({
-            arrows: false,
-            dots: false,
-            autoplay: true,
-            autoplaySpeed: 3000,
-            fade: true,
-            speed: 3000
-        });
+     
 
     };
 
