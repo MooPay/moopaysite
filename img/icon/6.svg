@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:url(#SVGID_3_);}
+	.st3{fill:#BCBCBC;}
+</style>
+<g>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="123.9" y1="812.033" x2="380.5" y2="812.033" gradientTransform="matrix(1 0 0 1 0 -497.333)">
+		<stop  offset="0.1567" style="stop-color:#D5692D"/>
+		<stop  offset="1" style="stop-color:#F0BE41"/>
+	</linearGradient>
+	<polygon class="st0" points="380.5,209.2 380.5,225.9 270,289.7 270,421 253.7,430.5 237.4,421 237.4,291.4 123.9,225.9 
+		123.9,209.2 141.7,198.9 141.7,198.9 253.7,263.6 364.2,199.8 	"/>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="123.9" y1="812.033" x2="380.5" y2="812.033" gradientTransform="matrix(1 0 0 1 0 -497.333)">
+		<stop  offset="0.1567" style="stop-color:#D5692D"/>
+		<stop  offset="1" style="stop-color:#F0BE41"/>
+	</linearGradient>
+	<polygon class="st1" points="141.7,198.9 123.9,209.2 123.9,225.9 237.4,291.4 237.4,421 253.7,430.5 270,421 270,289.7 
+		380.5,225.9 380.5,209.2 364.2,199.8 253.7,263.6 	"/>
+</g>
+<g>
+	
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="15.9" y1="748.333" x2="485.4" y2="748.333" gradientTransform="matrix(1 0 0 1 0 -497.333)">
+		<stop  offset="0.1567" style="stop-color:#D5692D"/>
+		<stop  offset="1" style="stop-color:#F0BE41"/>
+	</linearGradient>
+	<path class="st2" d="M250.2,47.4l93.9,54.2v108.8v18.2l15.8,9.2l93.9,54.2v108.4l-93.9,54.2l-93.5-53.9l-15.8-9.2l-15.8,9.2
+		l-93.5,54.1l-93.9-54.2V292.2l93.1-53.8l15.8-9.2V211V101.8L250.2,47.4 M250.2,11L124.8,83.4v127.5L15.9,273.7v144.8L141.4,491
+		l109.3-63.1L359.9,491l125.5-72.4V273.7l-109.7-63.4v-127L250.2,11L250.2,11z"/>
+</g>
+<g>
+	<path class="st3" d="M252.2,172.4l95.9,55.3l0.1,0.1v110.8l-96,55.4l-96-55.4V227.8l1.6-0.9L252.2,172.4 M252.2,135.1l-110.5,63.8
+		L124,209.2v148.1l128.3,74l128.3-74V209.2l-16.3-9.4L252.2,135.1L252.2,135.1z"/>
+</g>
+</svg>

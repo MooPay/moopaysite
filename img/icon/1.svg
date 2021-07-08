@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#BCBCBC;}
+	.st1{fill:url(#SVGID_1_);}
+</style>
+<g>
+	<path class="st0" d="M490.6,462.2h-28.1V179h-85.3v283.1H349V291.5h-84.4v170.6h-28.1V235.3h-84.4v226.9H124V319.7H38.7v142.5H10.6
+		v28.1h480V462.2z"/>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="14.7" y1="367.2" x2="490.6" y2="367.2" gradientTransform="matrix(1 0 0 -1 0 502)">
+		<stop  offset="0.1567" style="stop-color:#D5692D"/>
+		<stop  offset="1" style="stop-color:#F0BE41"/>
+	</linearGradient>
+	<path class="st1" d="M490.6,122.8V10.3H377.2v28.1h65.4L306.9,173.2L194.4,60.7L14.7,239.4l19.9,19.9l159.7-158.8L306.9,213
+		L462.5,58.3v64.5H490.6z"/>
+</g>
+</svg>
