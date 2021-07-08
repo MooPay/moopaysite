@@ -59,10 +59,10 @@ body {
 body {
   background: #f5f5f5;
   font-family: "Noto Sans JP", sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: normal;
-  line-height: 1.765;
+  line-height: 1.65;
   color: #757575;
   margin: 0;
   padding: 0;
@@ -96,7 +96,7 @@ a:active {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "domine-regular", serif;
-  color: #ffffff;
+  color: #121212;
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -379,6 +379,35 @@ ul.disc li::before {
   vertical-align: middle;
 }
 
+ul.checklist{
+
+	color: #121212;
+	font-size: 16px;
+	line-height: 200%;
+}
+ul.checklist li{
+
+	display: list-item;
+	list-style: none;
+	padding: 0 0 0 .8rem;
+	position: relative;
+}
+ul.checklist li::before {
+  content: "";
+  display: inline-block;
+  -webkit-transform: rotate(45deg) translate(7px,2px);
+  -ms-transform: rotate(45deg) translate(7px,2px);
+  transform: rotate(45deg) translate(7px,2px);
+  border: 2px solid #ff8200;
+  border-left: 0;
+  border-top: 0;
+  width: 6px;
+  height: 12px;
+  position: absolute;
+  left: -17px;
+  top: 3px;
+}
+
 dt {
   margin: 0;
   color: #ff8200;
@@ -625,7 +654,9 @@ input[type="reset"],
 input[type="button"] {
   display: inline-block;
   font-family: "Noto Sans JP", sans-serif;
-  font-size: 1.2rem;
+  /*font-size: 1.2rem;*/
+  font-size: 1.4rem;
+  border-radius: 0;
   text-transform: uppercase;
   letter-spacing: .3rem;
   height: 5.4rem;
@@ -670,6 +701,19 @@ input[type="button"]:focus {
 button.full-width {
   width: 100%;
   margin-right: 0;
+}
+
+.link,
+button.link {
+  text-decoration: none !important;
+  font-size: 1.6rem;
+}
+.link i,
+button.link i{
+
+	vertical-align: middle;
+	font-size: 130%;
+	margin-left: 10px;
 }
 
 .btn--pill,
@@ -939,6 +983,10 @@ input::-moz-focus-inner {
   color: rgba(255, 255, 255, 0.8);
   margin-top: 6.6rem;
   margin-right: 15%;
+}
+.home-content__text h2{
+
+	color: #ffffff;
 }
 
 .home-content__subscribe {
@@ -1815,6 +1863,7 @@ body.home-1 .mooSwap__content__main{
 }
 .mooSwap__content--item h2{
   font-weight: bold;
+  color: #ffffff;
 }
 .mooSwap__content--item p{
   color: #ffffff;
@@ -1844,6 +1893,7 @@ body.home-1 .mooSwap__content__main{
   /*overflow: hidden;*/
   display: flex;
   align-items: flex-start;
+  flex-wrap: wrap;
   margin-bottom: 50px;
 }
 .mooToken__heading{
@@ -1851,7 +1901,6 @@ body.home-1 .mooSwap__content__main{
   padding: 0 15px;
 }
 .mooToken__heading h2{
-  color: #121212;
   font-weight: bold;
   font-size: 44px;
   margin-bottom: 10px;
@@ -1865,6 +1914,7 @@ body.home-1 .mooSwap__content__main{
   padding: 0 15px;
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .mooToken__card__panel{
@@ -1873,11 +1923,12 @@ body.home-1 .mooSwap__content__main{
 }
 
 .mooToken__card{
-  padding: 40px 20px 40px 40px;
+  padding: 30px 20px 40px 30px;
   background-color: #fff;
-  min-width: 300px;
+  /*min-width: 300px;*/
+  /*width: 100%;*/
   min-height: 360px;
-  margin: auto 15px 50px;
+  margin: auto 0px 50px;
   box-shadow: 10px 0px 45px 0px rgb(17 5 0 / 16%);
 }
 
@@ -1901,7 +1952,6 @@ body.home-1 .mooToken__card.card-6{
 }
 
 .mooToken__card--title{
-  color: #121212;
   font-weight: bold;
   font-size: 32px;
   margin-bottom: 10px;
@@ -1910,6 +1960,10 @@ body.home-1 .mooToken__card.card-6{
 .mooToken__card--desc{
   color: #121212;
   margin-bottom: 0;
+}
+.mooToken__card--action{
+	/*position: absolute;
+	bottom: 20px;*/
 }
 
 .mooToken__card{
@@ -1998,6 +2052,110 @@ body.home-1 .mooToken__card--desc{
   }
 }
 
+
+
+
+
+/* ------------------------------------------------------------------- 
+ * Payments
+ * ------------------------------------------------------------------- */
+
+.paymentsHero{
+
+
+}
+
+.paymentsHero h1 {
+  font-size: 5rem;
+  line-height: 1.219;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+
+.paymentsHero p {
+  margin-top: 30px;
+}
+
+
+.text-center{
+  text-align: center;
+}
+
+.heading{
+
+  padding-bottom: 80px;
+  max-width: 840px;
+  margin: auto;
+}
+.heading p{
+  color: #444444;
+}
+.heading span{
+
+	color: #ff8200;
+}
+.heading h2, h2.heading{
+
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 1.4;
+}
+.heading h3, h3.heading{
+
+  /*font-weight: bold;*/
+  font-size: 3rem;
+  line-height: 1.4;
+}
+
+
+
+
+
+.text-gradient{
+  background-image: linear-gradient(125deg ,#f0be41 10%,#d4652c 85%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 120%;
+}
+
+.paymentsAbout{
+
+  padding: 80px 0 60px;
+  position: relative;
+  /*border-bottom: 1px solid #f0f0f0;*/
+}
+
+.payments .container{
+	max-width: 1110px;
+}
+
+.payments .mooToken__card{
+	min-height: 340px;
+}
+.payments .mooToken__card--desc{
+	font-size: 15px;
+}
+
+
+
+.paymentsDark{
+	/*background-color: #ff8200;*/
+	background-color: #121212;
+}
+
+.paymentsDark .mooToken__card{
+	color: #484848;
+	border: 1px solid #484848;
+	background: none;
+}
+.paymentsDark .mooToken__card--title{
+	color: #ffffff;
+}
+.paymentsDark .mooToken__card--desc{
+	color: #9a9a9a;
+}
 
 
 
