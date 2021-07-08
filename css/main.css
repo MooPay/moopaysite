@@ -1923,12 +1923,15 @@ body.home-1 .mooSwap__content__main{
 }
 
 .mooToken__card{
-  padding: 30px 20px 40px 30px;
+  padding: 30px 20px 40px 40px;
   background-color: #fff;
   /*min-width: 300px;*/
   /*width: 100%;*/
+
+  /*max-width: 340px;*/
+
   min-height: 360px;
-  margin: auto 0px 50px;
+  margin: auto 0px 30px;
   box-shadow: 10px 0px 45px 0px rgb(17 5 0 / 16%);
 }
 
@@ -1981,6 +1984,10 @@ body.home-1 .mooToken__card--desc{
   color: #ffffff;
 }
 
+.mooToken__card .icon{
+
+  margin-bottom: 20px;
+}
 
 @media only screen and (max-width:1200px){
   .mooToken__content__main{
@@ -2142,7 +2149,15 @@ body.home-1 .mooToken__card--desc{
 
 .paymentsDark{
 	/*background-color: #ff8200;*/
-	background-color: #121212;
+	/*background-color: #121212;*/
+	overflow: hidden;
+  /*background: linear-gradient( 39deg, #f1b475 0%, #d46f05 100%);*/
+  background: linear-gradient( 39deg, #2b2b2b 0%, #101010 100%);
+}
+.paymentsDark .overlay-bg{
+	background-position: center center;
+	position: relative;
+	background-size: cover;
 }
 
 .paymentsDark .mooToken__card{
@@ -2157,6 +2172,49 @@ body.home-1 .mooToken__card--desc{
 	color: #9a9a9a;
 }
 
+.progress-slider .mooToken__card{
+	min-height: 450px;
+}
+
+
+
+
+
+/*----------------------- Our Work Progress -------------------*/
+.our-work-progress {
+  margin: 30px 0 110px;
+  padding: 95px 0 55px;
+}
+.our-work-progress .main-wrapper {
+	max-width: 1920px;
+	margin: 0 auto;
+}
+.our-work-progress .main-wrapper .progress-slider-wrapper {
+  float: right;
+  padding-right: 40px;
+  width: 70%;
+  overflow: hidden;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+.our-work-progress .section-title-wrapper {
+  float: left;
+  width: 30%;
+  padding-right: 30px;
+  padding-top: 40px;
+  padding-left: 15px;
+}
+.our-work-progress .section-title-wrapper .theme-title {
+	float: right;
+	max-width: 340px;
+	padding-top: 25px;
+}
+.our-work-progress .section-title-wrapper .theme-title p {
+	padding-top: 25px;
+}
+.our-work-progress.style-two .theme-title h2 {
+	font-size: 52px;
+}
 
 
 
@@ -2164,6 +2222,57 @@ body.home-1 .mooToken__card--desc{
 
 
 
+
+/* 
+*  Owl Carousel - Animate Plugin
+*/
+.owl-item{
+	/*min-width: 340px;*/
+}
+.owl-carousel {
+  display: none;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  /* position relative and z-index fix webkit rendering fonts issue */
+  position: relative;
+  z-index: 1;
+}
+ .owl-carousel .owl-item {
+   position: relative;
+   min-height: 1px;
+   float: left;
+   -webkit-backface-visibility: hidden;
+   -webkit-tap-highlight-color: transparent;
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+ }
+
+
+
+
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * Payments
+ * ------------------------------------------------------------------- */
+@media (max-width: 767px) {
+  .our-work-progress .section-title-wrapper {
+  	width: 100%;
+  	padding: 0 15px;
+  }
+  .our-work-progress .main-wrapper .progress-slider-wrapper {
+  	width: 100%;
+  	padding: 0 15px;
+  }
+  .our-work-progress .section-title-wrapper .theme-title {
+  	max-width: none;
+  	padding: 0 0 40px;
+  }
+}
+/*(max-width: 767px)*/
 
 
 

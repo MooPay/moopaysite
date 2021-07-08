@@ -135,6 +135,34 @@
         }
     };
 
+    /* Work Progress Slider
+     * ------------------------------------------------------ */
+     var pSlider = function() {
+        $ (".progress-slider").owlCarousel({
+            loop:true,
+            nav:false,
+            dots:false,
+            autoplay:true,
+            margin:30,
+            autoplayTimeout:4000,
+            smartSpeed:1200,
+            autoplayHoverPause:true,
+            lazyLoad:true,
+            items:3,
+            responsive:{
+                0:{
+                    items:1
+                },
+                576:{
+                    items:2
+                },
+                1550:{
+                    items:4
+                }
+            },
+        });
+    }
+
 
    /* initialize
     * ------------------------------------------------------ */
@@ -146,6 +174,7 @@
         ssPlaceholder();
         ssFinalCountdown();
         ssAjaxChimp();
+        pSlider();
 
     })();
 
