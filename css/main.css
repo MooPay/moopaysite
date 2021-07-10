@@ -1992,10 +1992,10 @@ body.home-1 .mooToken__card--desc{
 
 @media only screen and (max-width:1200px){
   .mooToken__content__main{
-    display: block;
-    text-align: left;
+    /*display: block;*/
+    /*text-align: left;
     padding-bottom: 30px;
-    overflow: hidden;
+    overflow: hidden;*/
   }
   .mooToken__heading{
     width: 100%;
@@ -2308,12 +2308,30 @@ body.home-1 .mooToken__card--desc{
 
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
 }
-.integration__logos .features__itemIcon{
+.integration__item{
+	margin: 0px 10px 60px;
+	text-align: center;
+}
+.integration__itemIcon{
 
-	margin: auto auto 40px;
+	margin: auto auto 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 80px;
+	height: 100px;
 }
+.integration__itemIcon img{
+
+	width: auto;
+	height: 100%;
+	max-width: 110px;
+	object-fit: contain;
+}
+
+
+
 @media (max-width: 400px){
 
 	.integration__logos .mob-six{

@@ -494,6 +494,10 @@ textarea {
     margin-right: -15px;
   }
 
+  .md-mt-0{
+    margin-top: 0rem !important;
+  }
+
   [class*="col-"] {
     padding: 0 15px;
   }
@@ -969,7 +973,7 @@ textarea {
   margin-bottom: 2rem;
 }
 .mt-3{
-  margin-top: 3rem !important;
+  margin-top: 3rem;
 }
 .mt-6{
   margin-top: 6rem !important;
